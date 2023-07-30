@@ -1,0 +1,60 @@
+.page {
+    margin-top: 60px;
+  width: 100%;
+  /* height: 60vh; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  position: relative;
+}
+li {
+  list-style-type: none;
+}
+.room--list{
+    height: 60vh;
+  overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+}
+.room__item{
+    /* width: 100%; */
+    background-color: #fff;
+    border-radius: 1px solid black;
+    padding: 3px 25px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon--blue{
+    color: blue;
+}
+.icon-brown{
+    color: rgb(143, 98, 14);
+}
+.icon-red{
+    color: red;
+}
+
+.create_div button{
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: #1976d2;
+    color: #fff;
+    border-radius: 13px;
+    top: -80px;
+    padding: 5px 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

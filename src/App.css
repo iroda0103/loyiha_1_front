@@ -1,0 +1,14 @@
+.container{
+    max-width: 800px;
+    width: 100%;
+    height: 70vh;
+    margin:0 auto;
+    margin-top: 50px;
+    /* background-color: bisque; */
+    background-color: #2affb83d;
+    padding: 30px ;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+

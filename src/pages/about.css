@@ -1,0 +1,46 @@
+.about{
+    height: 100%;
+}
+
+.show-list{
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 15px;
+   height: 90%;
+}
+
+.show-list__item{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.show--name{
+    font-size: 50px;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.show-list__item2{
+background-color: transparent;
+padding: 10px 17px;
+}
+.show-list__item2 p{
+    background-color: #fff !important;
+    padding: 14px 18px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ border-radius: 8px;
+}
+
+.orqaga{
+    cursor: pointer;
+    /* border:0;
+    background-color: aqua; */
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+  }

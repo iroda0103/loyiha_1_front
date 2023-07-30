@@ -1,0 +1,35 @@
+form{
+    background-color: rgb(255, 226, 184);
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+input,select{
+    margin-bottom: 5px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+}
+button{
+    display: block;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(90, 131, 207);
+    color: #fff;
+    margin-top: 20px;
+}
+/* .container{ */
+    /* background-color: #7fffd43d; */
+    /* display: flex;
+    justify-content: center; */
+/* } */
